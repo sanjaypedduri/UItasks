@@ -1,0 +1,111 @@
+.but{
+    display: flex;
+      padding: 50px;
+    background-color: crimson;
+    justify-content: space-evenly;
+}
+.butt{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border-width: 0px;
+    background-color: green;
+    color: white;
+    width: 120px;
+    height: 40px;  
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: fantasy;
+}
+#item1,#item2,#item3,#item4,#item5{
+    display: none;
+}
+.middle{
+    position:relative;
+    
+    bottom:60px;
+    padding: 0px;
+    margin: 0px;
+    height: 300px;
+    width: 350px;
+}
+.lay{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+.circle{
+    border-radius: 50%;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+.box{
+    display: flex;
+    background-color: darkseagreen;
+    justify-content: space-evenly;
+}
+.left{
+    text-align: center;
+    padding: 18px;
+}
+.right{
+    text-align: center;
+    padding: 18px;
+    position:relative;
+    }
+.middle{
+    text-align: center;
+    padding: 18px;
+    }
+    #candle{
+        height: 50px;
+        width: 60px; 
+        left: 100px;
+        display:none;
+        padding: 0px;
+        margin: 0px;
+    }
+.cakeimg{
+    width: 60px;
+    height: 50px;
+    border-radius: 30%;
+}
+#layer1{
+    height: 40px;
+    width: 245px;
+    display:none;
+}
+
+#layer2{
+    height: 40px;
+    width: 200px;
+    left: 40px;
+    display:none;
+}
+
+#layer3{
+    height: 40px;
+    width: 160px;
+    left: 60px;
+    display:none;
+}
+
+#layer4{
+    height: 40px;
+    width: 120px;
+    left: 80px;
+    display:none;
+}
+
+#layer5{
+    height: 40px;
+    width: 80px;
+    left: 100px;
+    display:none;
+}
