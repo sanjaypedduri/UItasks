@@ -1,0 +1,210 @@
+.image{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    
+    
+}
+nav ul{
+    display: flex;
+    flex: right;
+    align-items: center;
+    list-style: none;
+    font-family: Lucida Handwriting;
+    justify-content: space-around;
+    width: 50%;
+    color: white;
+    
+}
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+.home{
+    background-image: url("biryani.jpeg");
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+.search{
+    width: 400px;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-family: Lucida Handwriting;
+    font-weight: 300;
+    font-size: 15px;
+}
+.para{
+    color: white;
+    font-family: Lucida Handwriting;
+    font-weight: 500;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+    max-width: 700px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+.ref{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+.pa{
+    color: white;
+    text-align: center;
+    font-family: Lucida Handwriting; 
+    padding-top: 50px;
+    font-size: 30px;
+}
+.two{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden; 
+}
+.menu{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden; 
+}
+.para-menu{
+    color: black;
+    background-color: white;
+    font-family: Lucida Handwriting;
+    display: flex;
+    border-radius: 30px;
+    height: 230px;
+    width: 1000px;
+    margin-top: 20px;
+}
+.para-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.oo{
+    color: white;
+    text-decoration: none;
+}
+.img2{
+    border-radius: 30px;
+    height: 230px;
+    width: 300px;
+}
+button{
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: orange;
+    color: white;
+    height: 30px;
+    
+    width: 200px;
+}
+.book{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 20px;
+
+}
+
+.cont{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("last.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    overflow-x: hidden;
+    
+    
+}
+.co{
+    display: flex;
+    font-family: Lucida Handwriting; 
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 250px;
+}
+.cc{
+    background-color: orange ; 
+    border-radius:50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+/* sga */
+
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height:80%;
+    background-color:white;
+    color:black;
+    padding: 0.7rem 2.3rem;
+}
+.grid-container{
+    display: flex;
+}
+.main-content{
+    flex: 2;
+    padding-right: 1.5rem;
+}
+.main-content h3{
+    font-family: Lucida Handwriting;
+    color: black;
+}
+.main-content p {
+    margin-top: -0.5rem;
+    font-family: Lucida Handwriting;
+    color:orange;
+}
+.aside{
+    flex: 1;
+    padding: 2rem;
+    border-left: 1px solid black;
+    margin-right: -2rem;
+    font-family: Lucida Handwriting;
+   
+}
+input{
+    width: 100%;
+    margin: 5px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+label{
+    font-family: Lucida Handwriting;
+    padding-top: 10px;
+}

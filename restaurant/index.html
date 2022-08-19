@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home" id="home">
+        <nav>
+            <div>
+                <img class="image" src="mother.jpg">
+            </div>
+        <ul>
+            
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#booking">Bookings</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+        <div   class="para">
+            <div >
+                <p>The secret Ingredient is &nbsp; <b>LOVE</b> </p>
+            </div>
+            <div>
+                <form action="" style="margin: auto; max-width: 250px;">
+                    <input class="search" type="text" placeholder="&nbsp;&nbsp;Search..." name="search">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="two" id="about">
+        <p class="pa">COME WITH US &nbsp;&nbsp; -  &nbsp;&nbsp; LEARN MORE ABOUT US</p>
+         <div class="ref">
+           
+            <iframe   class="about" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.146084628145!2d80.17254241384424!3d13.026367717200985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5260da3c492059%3A0xd9aaff08e104363b!2sPalmshore%20Restaurant%20Ramapuram!5e0!3m2!1sen!2sin!4v1660816102152!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <iframe  class="about" width="560" height="315" src="https://www.youtube.com/embed/95BCU1n268w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+     
+         </div>
+        </div>
+    <center>
+        <div class="menu" id="menu">
+            <div  class="para-menu">
+                <div>
+                    <img  class="img2" src="biryani2.jpg">
+                </div>
+                <div class="para-content">
+                    <h4><u>Hyderabadi Biryani</u></h4>
+                    <p>The authentic Hyderabadi biryani is meticulously prepared in the 'Kutchi' (raw) biryani style, in which raw rice and raw meat are cooked together in a 'handi' with spices and a little bit of water. “It takes meticulous planning and a lot of time to prepare Hyderabadi biryani.</p>
+                    <center>
+                        <button><a href="#booking"  class="oo">Order Item</a></button>
+                    </center>
+                </div>
+            </div>
+            <div  class="para-menu">
+                
+                <div   class="para-content">
+                    <h4><u>Irani ChaI</u></h4>
+                    <p>There is an interesting story behind Irani chai&rsquo;s origin in Hyderabad. It is said that Persian immigrants came to Mumbai&rsquo;s port in the last century and prior to that in search of a better life and to trade. From Mumbai they migrated to Pune and then to Hyderabad.</p>
+                    <center>
+                        <button><a href="#booking" class="oo">Order Item</a></button>
+                    </center>
+                </div>
+                <div  >
+                    <img class="img2" src="irani.jpg">
+                </div>
+            </div>
+            <center>
+                <button style="margin-top: 14px;"><a href="#booking"  class="oo">Order Item</a></button>
+            </center>
+            
+        </div>
+    </center>
+    <div id="booking" class="book">
+        <div class="container">
+            <div class="grid-container">
+                <div class="main-content" id="main-content">
+                    <h3>Items Available for Booking</h3>
+                    <p>Hyderabadi Biryani</p>
+                    <p>Irani ChaI</p>
+                    <p>Chicken 65</p>
+                    <hr>
+                </div>
+                <div class="aside">
+                    <h3>Enter your details for booking</h3>
+                    <label for="title">Name</label>
+                    <input type="text" style="font-family: Lucida Handwriting; border-width: 1px;" placeholder="&nbsp;&nbsp;Enter Name" id="title" >
+                    <label for="description">Item</label>
+                    <input type="text" style="font-family: Lucida Handwriting; border-width: 1px;" id="description" placeholder="&nbsp;&nbsp;Enter Items" >
+                <center>
+                    <button class="bon" style="margin-top: 10px; ;" onclick="addPost()">Order and Book</button>
+              
+                </center>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="cont">
+        <div class="co">
+            <div class="cc">
+                <h1>CONTACT US</h1>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
